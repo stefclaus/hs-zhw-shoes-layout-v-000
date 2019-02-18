@@ -51,12 +51,6 @@
   /* padding-bottom: 20px; */
 }
 
-[class*="col-"] {
-  width: 32%;
-  float: left;
-  margin-left: 2%;
-}
-
 #deals1 {
   margin-right: 2%;
   float: right;
