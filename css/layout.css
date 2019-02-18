@@ -24,19 +24,23 @@
 
 /* Positioning Classes */
 
-
-#featured {
-  float: left;
-  width: 63.333%;
+.featured {
+  clear: both;
   margin-bottom: 2%;
-  padding-bottom: 2.5%;
 }
 
-#archive {
-  float: right;
-  width: 31.333%;
-  margin-bottom: 2%;
-  padding-bottom: 2.5%;
+.featured:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 1%;
 }
 
 [class*="col-"]:first-child {
