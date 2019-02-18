@@ -28,6 +28,8 @@
 #featured {
   float: left;
   width: 63.333%;
+  margin-bottom: 2%;
+  padding-bottom: 2.5%;
 }
 
 #archive {
