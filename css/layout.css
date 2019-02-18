@@ -39,11 +39,6 @@
   padding-bottom: 2.5%;
 }
 
-[class*="col-"] {
-  float: left;
-  margin-left: 1%;
-}
-
 [class*="col-"]:first-child {
   margin-left: 0;
 }
