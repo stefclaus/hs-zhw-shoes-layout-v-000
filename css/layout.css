@@ -39,20 +39,23 @@
   padding-bottom: 2.5%;
 }
 
-
-#deals1 {
-  margin-left: 2%;
+[class*="col-"] {
   float: left;
+  margin-left: 1%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-3 {
   width: 32%;
 }
 
-#deals2 {
-  width: 32%;
-  float: center;
+.col-2 {
+  width: 66%;
 }
 
-#deals3 {
-  margin-right: 2%;
-  float: right;
+.col-1 {
   width: 32%;
 }
